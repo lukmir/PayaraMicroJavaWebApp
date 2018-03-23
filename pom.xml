@@ -21,7 +21,6 @@
     <finalName>PayaraMicroJavaWebApp</finalName>
 
       <plugins>
-
           <plugin>
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-compiler-plugin</artifactId>
@@ -40,7 +39,7 @@
                   <dependency>
                       <groupId>fish.payara.extras</groupId>
                       <artifactId>payara-micro</artifactId>
-                      <version>4.1.153</version>
+                      <version>4.1.1.162</version>
                   </dependency>
               </dependencies>
               <executions>
@@ -57,6 +56,8 @@
                               <argument>${basedir}/target/${project.build.finalName}.war</argument>
                               <argument>--outputUberJar</argument>
                               <argument>${basedir}/target/${project.build.finalName}.jar</argument>
+                              <argument>--port</argument>
+                              <argument>9898</argument>
                           </arguments>
                           <includeProjectDependencies>false</includeProjectDependencies>
                           <includePluginDependencies>true</includePluginDependencies>
