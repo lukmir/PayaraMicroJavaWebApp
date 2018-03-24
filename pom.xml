@@ -57,7 +57,7 @@
                               <argument>--outputUberJar</argument>
                               <argument>${basedir}/target/${project.build.finalName}.jar</argument>
                               <argument>--port</argument>
-                              <argument>9898</argument>
+                              <argument>8080</argument>
                           </arguments>
                           <includeProjectDependencies>false</includeProjectDependencies>
                           <includePluginDependencies>true</includePluginDependencies>
