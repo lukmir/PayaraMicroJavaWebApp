@@ -37,5 +37,6 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.eclipse.microprofile.health:microprofile-health-api:1.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.eclipse.microprofile.metrics:microprofile-metrics-api:1.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.eclipse.microprofile.jwt:microprofile-jwt-auth-api:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.persistence:javax.persistence:2.2.0" level="project" />
   </component>
 </module>
